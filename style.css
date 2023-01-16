@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .nav {
+  background-color: #292b2c;
+  height: 60vh;
+}
+header .nav .container .getstarted {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+header .nav .container .getstarted .content {
+  text-align: center;
+}
+header .nav .container .getstarted .content h3 {
+  color: white;
+  width: 498px;
+  height: 115px;
+  font-size: 48px;
+  font-weight: bold;
+}
+header .nav .container .getstarted .content p {
+  color: rgba(255, 255, 255, 0.5) !important;
+  width: 449px;
+  height: 90px;
+}
+header .nav .container .row {
+  align-items: baseline;
+  color: white;
+  height: 10vh;
+  align-content: center;
+}
+header .nav .container .row .col-lg-8 ul {
+  display: flex;
+  justify-content: flex-end;
+}
+header .nav .container .row .col-lg-8 ul li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+main .featured {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+main .featured .container .row {
+  margin-top: 5rem;
+}
+main .featured .container .row .col-lg-4 .icon {
+  color: white;
+  background-color: #0D6EFD;
+  width: 64px;
+  height: 64px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+main .featured .container .row .col-lg-4 .content h3 {
+  font-weight: bold;
+}
+main .featured .container .row .col-lg-4 .content a {
+  text-decoration: none;
+}
+main .featured .container .row .col-lg-4 .content i {
+  font-size: small;
+  margin-left: 10px;
+}
+main .featured .container .row .col-lg-4 i {
+  font-size: 32px;
+}
+main hr {
+  margin: 0;
+}
+main .paygrow {
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+main .paygrow .heading {
+  text-align: center;
+  margin-bottom: 5rem;
+  position: relative;
+  top: 50px;
+}
+main .paygrow .heading h3 {
+  font-weight: bold;
+}
+main .paygrow .plans .row {
+  justify-content: space-evenly;
+}
+main .paygrow .plans .col-lg-4 {
+  margin-top: 5rem;
+  width: 374px;
+  background-color: white;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+  border: 1px;
+  height: 510px;
+}
+main .paygrow .plans .col-lg-4 i {
+  color: orange;
+}
+main .paygrow .plans .col-lg-4 .dollar {
+  margin-bottom: 2rem;
+}
+main .paygrow .plans .col-lg-4 .plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+main .paygrow .plans .col-lg-4 h3 {
+  display: inline;
+  font-weight: bold;
+  font-size: 60px;
+}
+main .paygrow .plans .col-lg-4 h6 {
+  display: inline;
+}
+main .paygrow .plans .col-lg-4 .agreement ul {
+  padding-left: 0px;
+}
+main .paygrow .plans .col-lg-4 .agreement ul #x {
+  color: rgba(48, 44, 44, 0.801) !important;
+}
+main .paygrow .plans .col-lg-4 .agreement ul li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+main .paygrow .plans .col-lg-4 .agreement ul li i {
+  font-size: 10px;
+}
+main .paygrow .plans .col-lg-4 .agreement ul li #check {
+  color: #0D6EFD;
+}
+main .paygrow .plans .col-lg-4 .chooseplan {
+  width: 218px;
+  height: 38px;
+  background-color: white;
+  border: 1px solid #0D6EFD;
+  border-radius: 5px;
+  color: #0D6EFD;
+}
+main .paygrow .plans .col-lg-4 .chooseplan span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transition: 0.3s;
+}
+main .paygrow .plans .col-lg-4 .chooseplan span:hover {
+  background-color: #0D6EFD;
+  color: white;
+}
+main .testimonials {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+main .testimonials .heading {
+  text-align: center;
+}
+main .testimonials .heading h3 {
+  font-weight: bold;
+}
+main .testimonials .message {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .testimonials .message .box {
+  margin-top: 2rem;
+  width: 586px;
+  height: 145px;
+  background-color: white;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+  border: 1px;
+  display: flex;
+  align-items: center;
+}
+main .testimonials .message .box .text {
+  width: 384px;
+  margin: auto;
+}
+main .testimonials .message .box .text span {
+  display: block;
+  color: gray;
+}
+main .testimonials .message .box .icon i {
+  margin-left: 3rem;
+  color: #0D6EFD;
+  font-size: 40px;
+}
+main .getintouch {
+  background-color: #f8f9fa;
+  text-align: center;
+}
+main .getintouch .formarea {
+  padding-top: 5rem;
+}
+main .getintouch .formarea .header {
+  padding-top: 3rem;
+}
+main .getintouch .formarea .header .icon {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  width: 64px;
+  background-color: #0D6EFD;
+  color: white;
+  border-radius: 5px;
+}
+main .getintouch .formarea .header .icon i {
+  font-size: 32px;
+}
+main .getintouch .formarea .header .title h3 {
+  font-weight: bold;
+}
+main .getintouch .formarea .form {
+  padding-top: 3rem;
+}
+main .getintouch .formarea .form button {
+  margin-top: 20px;
+  border: none;
+  background-color: rgba(13, 109, 253, 0.5764705882);
+  color: white;
+  width: 558px;
+  border-radius: 5px;
+  height: 47px;
+  margin-bottom: 4rem;
+}
+main .getintouch .formarea .form button span {
+  font-size: 20px;
+}
+main .getintouch .formarea .form ::-moz-placeholder {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+main .getintouch .formarea .form :-ms-input-placeholder {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+main .getintouch .formarea .form ::placeholder {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+main .getintouch .formarea .form #multi {
+  width: 558px;
+  height: 58px;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  border: none;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+}
+main .getintouch .formarea .form #textarea {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+footer .footer {
+  background-color: #292b2c;
+  height: 15vh;
+}
+footer .footer span {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+}
+
+@media screen and (max-width: 992px) {
+  .featured {
+    height: 120vh;
+  }
+  #pay .row {
+    flex-direction: column;
+    align-content: center;
+  }
+  #pay .col-lg-4 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  #pay .col-lg-4 .plan {
+    float: left;
+    margin-left: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
