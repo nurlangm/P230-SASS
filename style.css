@@ -34,6 +34,7 @@ header .nav .container .row {
   color: white;
   height: 10vh;
   align-content: center;
+  justify-content: flex-end;
 }
 header .nav .container .row .col-lg-8 ul {
   display: flex;
@@ -282,7 +283,22 @@ footer .footer span {
 
 @media screen and (max-width: 992px) {
   .featured {
-    height: 120vh;
+    height: 100vh;
+  }
+  .featured .col-lg-4 {
+    margin-bottom: 5rem;
+  }
+  header .col-lg-4 h4 {
+    position: relative;
+    top: 25px;
+  }
+  #pay .plans .plan #h6 {
+    position: relative;
+    right: 70px;
+  }
+  #pay .plans .dollar {
+    position: relative;
+    right: 45px;
   }
   #pay .row {
     flex-direction: column;
@@ -295,5 +311,50 @@ footer .footer span {
   #pay .col-lg-4 .plan {
     float: left;
     margin-left: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .featured .col-lg-4 {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .paygrow .container .row .plans .container .row .col-lg-4 {
+    padding: 50px;
+  }
+  .getintouch .formarea .form form button {
+    width: 277px;
+    height: 47px;
+  }
+  .getintouch .formarea .form form #textarea {
+    width: 277px;
+    height: 160px;
+  }
+  .getintouch .formarea .form form #multi {
+    width: 277px;
+    height: 58px;
+  }
+  header .nav {
+    height: 70vh;
+    width: 100%;
+  }
+  header .nav .container .getstarted .content h3 {
+    width: 276px;
+    height: 111px;
+    font-size: 30px;
+  }
+  header .nav .container .getstarted .content p {
+    width: 277px;
+    height: 150px;
+    font-size: 20px;
+  }
+  main .testimonials .message .box {
+    width: 276px;
+    height: 241px;
+  }
+  main .testimonials .message .box i {
+    position: relative;
+    right: 30px;
+    bottom: 60px;
   }
 }/*# sourceMappingURL=style.css.map */

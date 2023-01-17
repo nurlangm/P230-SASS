@@ -31,13 +31,12 @@ header{
                 }
             }
             .row{
+
                 align-items: baseline;
                 color: white;
                 height:10vh;
                 align-content: center;
-                .col-lg-4{
-    
-                }
+                justify-content: flex-end;
                 .col-lg-8{
                    ul{
                     display: flex;
@@ -304,18 +303,38 @@ footer{
     }
 }
 
-
-
-
-
-
-
-
 @media screen and (max-width: 992px){
+    .paygrow{
+        .chooseplan{
+        }
+    }
     .featured{
-      height:120vh;
+      height:100vh;
+      .col-lg-4{
+        margin-bottom:5rem;
+      }
+    }
+    header{
+        .col-lg-4{
+            h4{
+                position: relative;
+                top:25px;
+            }
+        }
     }
     #pay{
+       .plans{
+        .plan{
+            #h6{
+               position: relative;
+               right:70px;
+            }
+        }
+        .dollar{
+            position: relative;
+            right:45px;
+        }
+       }
       .row{
         flex-direction: column;
         align-content: center;
@@ -330,4 +349,85 @@ footer{
       }
     }
 }
-  
+@media screen and (max-width: 600px) {
+    .featured{
+        .col-lg-4{
+            padding-left: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+    .paygrow{
+        .container{
+            .row{
+                .plans{
+                   .container{
+                    .row{
+                        .col-lg-4{
+                           padding: 50px;
+                        }
+                    }
+                   }
+                }
+            }
+        }
+    }
+   .getintouch{
+    .formarea{
+        .form{
+           form{
+            button{
+                width: 277px;
+                height:47px;
+            }
+            #textarea{
+                width: 277px;
+                height: 160px;
+            }
+            #multi{
+                width: 277px;
+                height:58px;
+            }
+           }
+        }
+    }
+   }
+   header{
+    .nav{
+        height:70vh;
+        width: 100%;
+       .container{
+        .getstarted{
+            .content{
+                h3{
+                    width:276px;
+                    height: 111px;
+                    font-size: 30px;
+                }
+                p{
+                    width:277px;
+                    height:150px;
+                    font-size:20px;
+                }
+            }
+        }
+       }
+        
+    }
+   }
+   main{
+    .testimonials{
+        .message{
+            .box{
+               width:276px;
+               height: 241px;
+               i{
+                position: relative;
+                right: 30px;
+                bottom: 60px;
+               }
+            }
+        }
+    }
+   }
+  }
