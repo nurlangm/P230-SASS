@@ -309,7 +309,6 @@ footer{
         }
     }
     .featured{
-      height:100vh;
       .col-lg-4{
         margin-bottom:5rem;
       }
@@ -350,7 +349,19 @@ footer{
     }
 }
 @media screen and (max-width: 600px) {
+   header{
+    .nav{
+        height:100vh !important;
+        .started{
+            a{
+               width:262px;
+               height: 47px;
+            }
+        }
+    }
+   }
     .featured{
+        height:150vh;
         .col-lg-4{
             padding-left: 30px;
             padding-top: 20px;
